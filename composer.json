@@ -1,0 +1,35 @@
+{
+    "name": "andrespe/phpdres",
+    "description": "Workspace in PHP - Framework MVC for developers",
+    "license": "MIT",
+    "keywords": [
+        "micro framework",
+        "mvc framework",
+        "php framework"
+    ],
+    "type": "project",
+    "authors": [
+        {
+            "name": "andrespaucar",
+            "email": "sjandres184@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "require": {
+        "izniburak/router": "^2.2",
+        "illuminate/database": "^8.40",
+        "illuminate/pagination": "^8.40",
+        "vlucas/phpdotenv": "^5.3",
+        "symfony/filesystem": "^5.2",
+        "symfony/console": "^5.2",
+        "illuminate/view": "8.25",
+        "rakit/validation": "^1.4"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.2"
+    }
+}

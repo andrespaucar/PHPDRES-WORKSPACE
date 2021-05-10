@@ -1,0 +1,25 @@
+{
+  "name": "phpdres",
+  "version": "1.0.0",
+  "description": "composer require izniburak/router\r     composer require vlucas/phpdotenv",
+  "main": "index.js",
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-vue": "^2.21.2",
+    "laravel-mix": "^6.0.18",
+    "postcss": "^8.1.14",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12",
+    "vuex": "^3.6.2"
+  }
+}
