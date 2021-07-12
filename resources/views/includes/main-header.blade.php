@@ -131,5 +131,24 @@
           <i class="fas fa-th-large"></i>
         </a>
       </li>
+      <!-- DATOS USER -->
+      <li class="nav-item dropdown">  
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" >
+            <i class="fas fa-user-circle fa-lg"></i>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> 
+            <a class="dropdown-item " href="#">
+                <div>
+                    <p class="mb-0" style="font-size: 15px;font-weight: 500"><i class="fas fa-user fa-sm"></i> Perfil</p>  
+                </div>
+            </a> 
+            <div class="dropdown-divider"> </div> 
+            <form action="#" method="post">
+                {{-- <input type="hidden" name="_token" value="PULyTguIf6qj7bFTLN0awU4VLVz9f2a60KfuoQVN"> --}}
+                <button type="submit" class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i> Salir</button> 
+            </form> 
+        </div>
+      </li>
     </ul>
 </nav>

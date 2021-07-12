@@ -5,7 +5,7 @@ algunos componentes como el ORM Elocuent. y componentes de symfony.
 
 Con este Workspace PHP ya se desarrollo varios Proyectos.
 
-### Librerias utilizadas
+### Librerias Backend utilizadas
     composer require izniburak/router
     composer require vlucas/phpdotenv
 
@@ -22,7 +22,7 @@ Con este Workspace PHP ya se desarrollo varios Proyectos.
 
 
 
-### LIBRERIAS FRONTEND QUE PUEDES UTILIZAR
+### Librerias y Framework Frontend
     vue2
     laravel.mix
     axios
